@@ -60,12 +60,6 @@ class polynomial:
             for exp in sorted(combined.keys(),reverse=True):
                 result.insert(combined[exp],exp)
             return result
-
-
-
-
-
-
 p1=polynomial()
 p1.insert(5,4)
 p1.insert(3,2)
@@ -76,8 +70,6 @@ p2.insert(4,4)
 p2.insert(7,1)                      
 p2.insert(8,0)
 p2.display()
-
-
 p3=p1.merge(p2)
 p3.display()
 p1.delete(2)
